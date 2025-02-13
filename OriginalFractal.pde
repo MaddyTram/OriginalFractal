@@ -18,7 +18,6 @@ public void myFractal(int x, int y, int size) {
     myFractal(x + 50, y, size/2);
     stroke(#8400FA);
     myFractal(x, y - 50, size/2);
-    stroke(#03FF69);
     myFractal(x, y + 50, size/2);
   }
 }
